@@ -23,6 +23,23 @@ body {
     line-height: 1.4;
 }
 
+#content {
+    width: 75%;
+    margin: 0 auto;
+}
+
+#header {
+    font-size: 1.3em;
+}
+
+.list_title {
+    font-weight: bold;
+}
+
+.team_two {
+    font-style: italic;
+}
+
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection declarations have to be separate.
