@@ -24,12 +24,13 @@ body {
 }
 
 #content {
-    width: 75%;
-    margin: 0 auto;
+    width: 70%;
+    margin: 0.5em auto;
 }
 
 #header {
     font-size: 1.3em;
+    margin-left: -1em;
 }
 
 .list_title {
