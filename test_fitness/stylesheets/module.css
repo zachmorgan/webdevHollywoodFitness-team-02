@@ -1,0 +1,99 @@
+/* line 8, ../sass/module.scss */
+.module__container {
+  width: 100%;
+}
+
+/* line 11, ../sass/module.scss */
+.module__container--left {
+  margin-top: -50px;
+  width: 33.33333%;
+  float: left;
+}
+
+/* line 17, ../sass/module.scss */
+.module__container--inside {
+  padding: 30px;
+}
+
+/* line 20, ../sass/module.scss */
+.module-header3 {
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 1em;
+}
+
+/* line 24, ../sass/module.scss */
+.module-header4 {
+  padding-bottom: 0.15em;
+}
+
+/* line 27, ../sass/module.scss */
+.module__upcoming-clases--container {
+  list-style: none;
+  text-align: center;
+}
+
+/* line 31, ../sass/module.scss */
+.upcoming-clases--item {
+  line-height: 65px;
+  border-bottom: 1px solid #eee;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 13px;
+}
+
+/* line 38, ../sass/module.scss */
+.module__container--center {
+  width: 33.33333%;
+  float: left;
+  height: 400px;
+  margin-top: -50px;
+}
+
+/* line 44, ../sass/module.scss */
+.module__container--right {
+  width: 33.33333%;
+  float: left;
+  margin-top: -50px;
+}
+
+/* line 52, ../sass/module.scss */
+.module--paragraph {
+  line-height: 1.5em;
+}
+
+/* line 56, ../sass/module.scss */
+.big-button--why-join {
+  float: right;
+  background-color: gray;
+  padding: 8px 15px;
+  font-size: 20px;
+  border: none;
+}
+
+/* line 64, ../sass/module.scss */
+.module__sidebar {
+  width: 20%;
+  display: relative;
+  float: left;
+  padding: 0 25px;
+}
+
+/* line 71, ../sass/module.scss */
+.sidebar__category {
+  margin-bottom: 50px;
+}
+
+/* line 75, ../sass/module.scss */
+.article__gallery {
+  float: left;
+  margin: 0 2.5% 1em 0;
+  width: 22.5%;
+}
+/* line 79, ../sass/module.scss */
+.article__gallery:nth-child(4n) {
+  margin-right: 0;
+}
+/* line 82, ../sass/module.scss */
+.article__gallery:nth-child(4n+1) {
+  clear: left;
+}

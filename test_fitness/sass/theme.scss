@@ -1,0 +1,28 @@
+@mixin rounded($y, $x, $r:1px) {
+  border-#{$y}-#{$x}-radius: $r;
+  -moz-border-radius-#{$y}#{$x}: $r;
+  -webkit-border-#{$y}-#{$x}-radius: $r;
+}
+
+.round{
+	@include rounded(top, left, 3px);
+	@include rounded(top, right, 3px);
+	@include rounded(bottom, left, 3px);
+	@include rounded(bottom, right, 3px);
+}
+.round--half-top{
+	@include rounded(top, left, 3px);
+	@include rounded(top, right, 3px);
+}
+.round--half-bottom{
+	@include rounded(bottom, left, 3px);
+	@include rounded(bottom, right, 3px);
+}
+.round--half-left{
+	@include rounded(top, left, 3px);
+	@include rounded(bottom, left, 3px);
+}
+.round--half-right{
+	@include rounded(top, right, 3px);
+	@include rounded(bottom, right, 3px);
+}

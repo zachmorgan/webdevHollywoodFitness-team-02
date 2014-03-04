@@ -1,0 +1,215 @@
+.navigation__container{
+	width:95%;
+	display:block;
+	height:50px;
+	margin: 0 auto;
+}
+.nav__container--title{
+	list-style:none;
+	height:50px;
+	width:20%;
+}
+.site-title{
+	color:white;
+	line-height:50px;
+	font-size:20px;
+	text-decoration:none;
+}
+.nav__container--title-item{
+}
+.nav__container--navbar--inner{
+	width:50%;
+	float:right;
+	height:50px;
+}
+.nav__container--navbar{
+	list-style:none;
+	height: 50px;
+	margin-top: -65px;
+}
+.navbar--item{
+	width:24%;
+	line-height:50px;
+	float:left;
+	height:50px;
+	border-left:1px solid gray;
+	text-align: center;
+}
+.navbar--item--anchor{
+	color:white;
+	text-decoration:none;
+	font-weight:300;
+	font-size:13px;
+	width:100%;
+}
+.navbar--item--last{
+	border-right:1px solid gray;
+}
+
+.slider__container{
+	height:300px;
+	width:100%;
+}
+.slider__container--inner{
+	list-style:none;
+}
+.slider__controls--left{
+	position:relative;
+	float:left;
+	top:-215px;
+	width:35px;
+	height:35px;
+	line-height:35px;
+	text-align: center;
+	background-color:#444;
+	cursor:pointer;
+}
+.slider__item--first{
+	position:relative;
+	top:0px;
+	left:0px;
+}
+.gray-box{
+	width:100%;
+	min-height:100%;
+	background-color:gray;
+	text-align:center;
+	line-height:300px;
+	font-size:32px;
+	color:#555;
+	letter-spacing:2px;
+}
+.slider__conterols--right{
+	position:relative;
+	float:right;
+	top:-215px;
+	width:35px;
+	height:35px;
+	line-height:35px;
+	text-align: center;
+	background-color:#444;
+	cursor:pointer;
+}
+.slider--controller{
+	width:35px;
+	text-decoration:none;
+	color:#777;
+}
+.footer__container{
+	margin-top:30px;
+	width:100%;
+}
+.copyright{
+	width:40%;
+	float:left;
+}
+.copyright--paragraph{
+	font-size:13px;
+	text-transform:uppercase;
+}
+.footer-navigation{
+	width:60%;
+	float:right;
+}
+.footer-navigation--inside--footer{
+	list-style:none;
+}
+.navbar--item--footer{
+	width:24%;
+	text-align:center;
+	float:left;
+}
+.navbar--item--anchor--footer{
+	color:#000;
+	font-size:13px;
+	text-transform:uppercase;
+	text-decoration:none;
+}
+
+.container{
+    margin-top: 100px;
+    display: block;
+}
+
+.container__blog{
+	padding: 0 40px;	
+}
+
+.container__training{
+    padding: 0 50px;
+}
+
+.container__contact{
+    padding: 0 75px;
+}
+
+.container__contact__form{
+    display: relative;
+    padding: 20px 25px;
+}
+
+.container__contact__form--left{
+    float: left;
+    width: 45%;
+    display: block;
+}
+
+.container__contact__form--right{
+    float: right;
+    width: 55%;
+}
+
+.article__container--top{
+	width: 70%;
+	padding-right: 30px;
+	position: relative;
+	float: left;
+}
+
+.article__container--left{
+    width: 30%;
+    position: relative;
+    float: left;
+}
+
+.article__container--right{
+    width: 65%;
+    position: relative;
+    float: right;
+}
+
+.article__container--profile{
+    width: 100%;
+    position: relative;
+    margin-top: 25px;
+}
+
+.article__container--profile__coach{
+    wdith: 90%;
+    margin: 0 auto 10px auto;
+}
+
+.article__container--profile__img{
+    position: relative;
+    float: left;
+}
+
+.article__container--profile__info{
+    width: 75%;
+    position: relative;
+    float: right;
+}
+
+.article__container--clear{
+    clear: both;
+}
+
+.row__gallery{
+	position: relative;
+	margin-top: 100px;
+}
+
+.field__line{
+    display: block;
+    margin-bottom: 30px;
+}

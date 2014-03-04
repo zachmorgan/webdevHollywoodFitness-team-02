@@ -1,0 +1,41 @@
+//variables//
+$main-gray: #747379;
+
+//end variables//
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+.globalwidth{
+	padding:0px;
+	margin:0px;
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	color:$main-gray;
+}
+.globalwidth--top{
+	width:100%;
+	height:50px;
+	background: #232323; /* Old browsers */
+	background: -moz-linear-gradient(top,  #232323 0%, #212121 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#232323), color-stop(100%,#212121)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #232323 0%,#212121 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #232323 0%,#212121 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #232323 0%,#212121 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #232323 0%,#212121 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#232323', endColorstr='#212121',GradientType=0 ); /* IE6-9 */
+}
+.globalwidth--global{
+	position: relative;
+	width: 80%;
+	overflow: hidden;
+	margin: 0 auto;
+	top: -109px;
+}
+
+#clear{
+	display: block;
+	clear: both;
+}
